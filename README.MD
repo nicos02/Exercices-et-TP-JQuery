@@ -1,3 +1,4 @@
+![jquery (Téléphone)](https://github.com/nicos02/Exercices-et-TP-JQuery/assets/135131275/b4ff5ec0-bf13-4489-9d82-f40839568227)
 # jQuery Partie 1
 
 ## Exercice 1
