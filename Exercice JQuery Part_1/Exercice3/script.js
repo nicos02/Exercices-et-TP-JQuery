@@ -1,24 +1,16 @@
-// Attend que le document HTML soit entièrement chargé et prêt à être manipulé
-document.addEventListener('DOMContentLoaded', function() {
-   // Crée un nouvel élément input
-   var inputElement = document.createElement('input');
+$(document).ready(function () {
+  // Crée un nouvel élément input
+  var inputElement = $("<input>"); // Définit l'attribut type de l'élément input sur "text"
 
-   // Définit l'attribut type de l'élément input sur "text"
-   inputElement.setAttribute('type', 'text');
+  inputElement.attr("type", "text"); // Définit l'attribut value de l'élément input sur "HelloWorld"
 
-   // Définit l'attribut value de l'élément input sur "HelloWorld"
-   inputElement.setAttribute('value', 'HelloWorld');
+  inputElement.val("HelloWorld"); // Ajoute l'élément input au corps de la page
 
-   // Ajoute l'élément input au corps de la page
-   // document.body.appendChild est utilisé pour ajouter un élément en tant qu'enfant du corps de la page.
-   document.body.appendChild(inputElement);
+  $("body").append(inputElement); // Récupère la valeur de l'élément input
 
-   // Récupère la valeur de l'élément input
-   var value = inputElement.value;
+  var value = inputElement.val(); // Affiche la valeur dans une boîte d'alerte
 
-   // Affiche la valeur dans une boîte d'alerte
-   alert(value);
+  alert(value); // Affiche la valeur dans la console
 
-   // Affiche la valeur dans la console
-   console.log(value);
+  console.log(value);
 });

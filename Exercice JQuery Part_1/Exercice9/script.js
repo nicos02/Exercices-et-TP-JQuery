@@ -1,13 +1,16 @@
-document.addEventListener('DOMContentLoaded', function() {
-  // Créer un paragraphe
-  var paragraph = document.createElement('p');
+$(document).ready(function () {
+  // Crée un paragraphe
+  var paragraph = $("<p>"); 
   
-  // Ajouter du contenu au paragraphe
-  paragraph.textContent = 'Ceci est un paragraphe.';
+  // Ajoute du contenu au paragraphe
+
+  paragraph.text("Ceci est un paragraphe."); 
   
-  // Ajouter la classe "hide" au paragraphe
-  paragraph.classList.add('hide');
+  // Ajoute la classe "hide" au paragraphe
+
+  paragraph.addClass("hide"); 
   
-  // Ajouter le paragraphe au corps de la page
-  document.body.appendChild(paragraph);
+  // Ajoute le paragraphe au corps de la page
+
+  $("body").append(paragraph);
 });
