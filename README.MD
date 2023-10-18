@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/nicos02/Exercices-et-TP-JQuery/assets/135131275/b4ff5ec0-bf13-4489-9d82-f40839568227" alt="jquery (Téléphone)">
+  <img src="https://github.com/nicos02/Exercices-et-TP-JQuery/assets/135131275/0c64539b-4abc-4138-b7b1-62f83c26a480" alt="jquery (Téléphone)">
 </p>
 
 # jQuery Partie 1
